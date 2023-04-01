@@ -1,0 +1,24 @@
+.container{
+  max-width: 90%;
+
+}
+header{
+  background-image: url(img/header.jpg);
+  height:550px;
+  background-size: cover;
+}
+.logo{
+  width: 150px;
+}
+.h-title{
+  color:black;
+  font-size: 45px;     
+}
+.btn{
+background-color: aqua;
+border-radius: 20px;
+color: white;
+font-weight: bold;
+padding-left: 20px;
+padding-right: 20px;
+}
