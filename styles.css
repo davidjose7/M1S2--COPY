@@ -1,24 +1,46 @@
 .container{
   max-width: 90%;
+  margin: auto;
 
 }
 header{
   background-image: url(img/header.jpg);
   height:550px;
   background-size: cover;
+  position: relative;
 }
 .logo{
-  width: 150px;
+  width: 120px;
+
 }
 .h-title{
-  color:black;
-  font-size: 45px;     
+  color:#738c74;
+  font-size: 45px; 
+  position: absolute; 
+  top: 45%;   
+  transform: translateY(-50%);
 }
 .btn{
-background-color: aqua;
+background-color:#738c74;
 border-radius: 20px;
 color: white;
 font-weight: bold;
 padding-left: 20px;
 padding-right: 20px;
+}
+a{
+  color: #738c74;
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+#row-fragances{
+background-color: #738c74;
+}
+.row{
+  margin: 0;
+}
+#row-fragances img{
+  border-radius: 50%;
 }
