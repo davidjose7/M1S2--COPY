@@ -1,24 +1,87 @@
-.container{
-  max-width: 90%;
-  margin: auto;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-header{
+#row-header{
   background-image: url(img/header.jpg);
-  height:550px;
+}
+header .row{
+  display: flex;
+  align-items: center;
   background-size: cover;
   position: relative;
 }
-.logo{
-  width: 120px;
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 200px;
 
 }
+
+header .nav-center a{
+  padding: 20px;
+}
+header .logo{
+  margin-left: 20px;
+  width: 120px;
+}
+.col-2{
+
+  transform: translatex(-200px);
+
+}
+
+header .nav-left {
+  margin-right: 50px;
+}
+header .row .col-2{
+display:flex;
+}
+#jumbotron {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 100px;}
+
+@media (max-width:732px){
+      header 
+        {
+        flex-direction:column;
+        }
+        header .navbar{
+          flex-direction: column;
+        }
+        .nav-left{
+        text-align: center;
+        margin: 8px 50px;
+        }
+        .nav-right{
+        text-align: center;
+        margin: auto;
+        }
+        .nav-center {
+        text-align: center;
+        margin: 8px 50px;
+        }
+}
+@media(max-width:930px){
+  .row{
+    flex-direction: column;
+  }
+  .col-2{
+    margin: auto;
+    flex-direction: column;
+  }
+}
+
+
 .h-title{
   color:#738c74;
   font-size: 45px; 
   position: absolute; 
-  top: 45%;   
-  transform: translateY(-50%);
+
 }
 .btn{
 background-color:#738c74;
@@ -32,8 +95,20 @@ a{
   color: #738c74;
   text-decoration: none;
 }
-ul{
+.nav-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content:right;
+  align-items:center;
+  height: 60px;
+  padding: 20px 0;
+}
+li{
   list-style: none;
+
+}
+.nav-menu li{
+  padding: 50px;
 }
 #row-fragances{
 background-color: #738c74;
@@ -43,4 +118,24 @@ background-color: #738c74;
 }
 #row-fragances img{
   border-radius: 50%;
+}
+#row-leyend{
+  background-image: url(img/leyend.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #738c74;
+  padding-top: 300px !important;
+  padding-bottom: 300px !important;
+}
+.form-control{
+  border-radius: 50px;
+}
+footer{
+  background-color: #738c74;
+  padding-top: 70px !important;
+  padding-bottom: 70px !important;
+}
+
+.logofooter{
+  width: 150px;
 }

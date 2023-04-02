@@ -7,40 +7,47 @@
     <title>L'essence</title>
     <!--CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/ae38e17b07.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-light">
-            <div class="container">
+
+        <div class="row" id="row-header">
+            <nav class="navbar"> 
+                <nav class="nav-right">
                 <img class="logo" src="img/brand.png" alt="l'essence">
-                <ul class="nav-menu">
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Catalogue</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>  
-            </ul>
+                </nav>
+                <nav class="nav-center">
+                    <a href="">About us</a>
+                    <a href="">Products</a>
+                    <a href="">Contact</a>
+                </nav>
+                <nav class="nav-left">
+                    <button class="btn">sign in</button>
+                    <button class="btn">sign up</button>
+                </nav>
+            </nav>
+            <div id="jumbotron">
+                <div class="col-1">
+                    <div class="h-title fst-italic">
+                        Find your<br> essence<br>
+                            <button class="btn mt-3">Register Now!</button>
+                            <div class="imput-group mt-4">
+                                <input  class="form-control" type="text" placeholder="Email">
+                                <button class="btn">Send</button>
+                            </div>
+                    </div>
+                
             </div>
-            
-
-
-        </nav>
-        <div class="container">
-            <div class="h-title fst-italic">
-                Find your<br> essence<br>
-                <button class="btn mt-3">Register Now!</button>
+            <div class="col-2">
+                    <img class=¨reel¨ src="img/reel.png" alt="fragance">
             </div>
-        
-        
         </div>
+        
     </header>
     <main>
         <div class="row text-white py-5" id="row-fragances">
@@ -51,10 +58,10 @@
                         <h5>we select every single fragance </h5>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mt-5">
                     <div class="col">
                         <img src="img/image1.png" alt="fragance">
-                        <h4 class="font-weight-bold">Essential</h4>
+                        <h4 class="font-weight-bold mt-4">Essential</h4>
                         <p>Essential sport is a modern, sporty fragance for men introduced in 2009.</p><br>
                         <p>This fragance incorpores nutmeg, amber, patchouli, mandarin orange, juniper, pink grapefruit, bergamot, white musk and genarium.</p>
                         <div class="card-price">
@@ -64,7 +71,7 @@
                     </div>
                     <div class="col">
                         <img src="img/image2.png" alt="fragance">
-                        <h4 class="font-weight-bold">Absolute</h4>
+                        <h4 class="font-weight-bold mt-4">Absolute</h4>
                         <p>Essential sport is a modern, sporty fragance for men introduced in 2009.</p><br>
                         <p>This fragance incorpores nutmeg, amber, patchouli, mandarin orange, juniper, pink grapefruit, bergamot, white musk and genarium.</p>
                         <div class="card-price">
@@ -74,7 +81,7 @@
                     </div>
                     <div class="col">
                         <img src="img/image3.png" alt="fragance">
-                        <h4 class="font-weight-bold">Forest Breeze</h4>
+                        <h4 class="font-weight-bold mt-4">Forest Breeze</h4>
                         <p>Essential sport is a modern, sporty fragance for men introduced in 2009.</p><br>
                         <p>This fragance incorpores nutmeg, amber, patchouli, mandarin orange, juniper, pink grapefruit, bergamot, white musk and genarium.</p>
                         <div class="card-price">
@@ -86,14 +93,62 @@
             </div>
         </div>
         <div class="row" id="row-leyend"> 
-            
-        </div>
-        <div class="row" id="row-more"> 
-            
+            <div class="container text-center">
+                <h2>There is in the perfume a force of persuasion stronger than words, the flash of looks, feelings and will. The persuasive force of perfume cannot be countered, it invades us as the air invades our lungs, fills us, saturates us, there is no remedy against it.
+                </h2>
+                <h4 class="mt-5 fw-bold">-Perfume of Patrick Süskind</h4>
+
+            </div> 
         </div>
     </main>
     <footer>
+        <div class="row text-white">
+            <div class="container">
 
+                <div class="row">
+                    <div class="col mt-3">
+                        <img class="logofooter" src="img/brandfooter.png" alt="l'essence">
+                        <p class="text-white mt-2">©Todos los derechos reservados -David Martínez</p>
+                        </div>
+                        <div class="col mt-3">
+                        <h4 class="font-weight-bold">About Us.</h4>
+
+                        </div>
+                        <div class="col mt-3">
+                            <h4 class="font-weight-bold">Contact.</h4>
+                            <div class="d-flex">
+                                <span class="material-symbols-outlined">call</span>
+                                <p>+57 300-421-2483</p>
+                            </div>
+                            <div class="d-flex">
+                                <span class="material-symbols-outlined">mail</span>
+                                <p>dajomartinez0080@gmail.com</p>
+                            </div>
+                            <dIv class="d-flex">
+                                <span class="material-symbols-outlined">home</span>
+                                <p>Calle 24 #69-16, Local 707</p>
+                            </dIv>
+
+                        </div>
+                        <div class="col mt-3">
+                            <div>
+                                <i class="fa-brands fa-twitter fa-fade fa-xl" style="color: #ffffff;"></i>
+                            </div>
+                            <br>
+                            <div>
+                                <i class="fa-brands fa-instagram fa-fade fa-xl" style="color: #ffffff;"></i>
+                            </div>
+                            <br>
+                            <div>
+                                <i class="fa-brands fa-facebook fa-fade fa-xl" style="color: #ffffff;"></i>
+                            </div>
+                        </div>
+                </div>
+
+            </div>
+        </div> 
+
+        </div>
     </footer>
     <!--JS-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
